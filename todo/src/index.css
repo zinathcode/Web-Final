@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    h1,
+    p,
+    select,
+    li {
+        @apply text-[#706f81]
+    }
+}
